@@ -4,6 +4,7 @@ const remarkMath = require(`remark-math`)
 const config = require(`./site.config`)
 
 module.exports = {
+  pathPrefix: `test-gatsby-blog`,
   siteMetadata: config,
   plugins: [
     {
